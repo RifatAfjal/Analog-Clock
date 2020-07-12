@@ -25,7 +25,7 @@ function setTime(){
 
     // hout scale rotating for every hour 
     const hours = currentDate.getHours(); // get current hour
-    const hourDeg = ((minuteRatio +hours)/24)*360;
+    const hourDeg = ((minuteRatio +hours)/12)*360;
     clockHour.style.transform = `rotate(${hourDeg}deg)`; // rotate hour's scale
 
 }
